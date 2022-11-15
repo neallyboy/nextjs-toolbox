@@ -8,6 +8,13 @@
 [[plugins]]
   package = "netlify-plugin-cypress"
 
+[[plugins]]
+  package = "netlify-plugin-snyk"
+
+  [plugins.inputs]
+    failOnPreviews = true
+    yarnWorkspaces = false
+
 ## Learn more about redirects here
 ## https://docs.netlify.com/routing/redirects/#syntax-for-the-netlify-configuration-file
 ## https://docs.netlify.com/routing/redirects/redirect-options/
