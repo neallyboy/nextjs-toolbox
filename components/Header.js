@@ -19,7 +19,7 @@ export default function Header({ title }) {
         <a href="https://github.com/netlify-templates/nextjs-toolbox">
           https://github.com/netlify-templates/nextjs-toolbox
         </a>
-        ! Happy coding!
+        ! Happy coding - Neal!
       </p>
     </>
   );
